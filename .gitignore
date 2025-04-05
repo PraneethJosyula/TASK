@@ -1,37 +1,37 @@
-# Python virtual environment
-/.venv
-
-# Node dependencies
-node_modules/
-/nutrition_dashboard/frontend/node_modules/
-/.pnp
-.pnp.js
-
-# Python
+# Python backend exclusions
 __pycache__/
 *.py[cod]
 *$py.class
-/nutrition_dashboard/backend/__pycache__/
-/nutrition_dashboard/backend/app/__pycache__/
+nutrition_dashboard/backend/__pycache__/
+nutrition_dashboard/backend/app/__pycache__/
+*.pyc
 
-# Environment variables
-.env
-/nutrition_dashboard/backend/.env
-/nutrition_dashboard/frontend/.env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+# Node.js frontend exclusions
+nutrition_dashboard/frontend/node_modules/
+nutrition_dashboard/frontend/.pnp
+nutrition_dashboard/frontend/.pnp.js
 
 # Testing
-/coverage
+nutrition_dashboard/frontend/coverage
 
-# Build files
-/build
-/nutrition_dashboard/frontend/build/
+# Production
+nutrition_dashboard/frontend/build
 
 # Misc
 .DS_Store
+nutrition_dashboard/frontend/.DS_Store
+nutrition_dashboard/backend/.DS_Store
+nutrition_dashboard/frontend/.env.local
+nutrition_dashboard/frontend/.env.development.local
+nutrition_dashboard/frontend/.env.test.local
+nutrition_dashboard/frontend/.env.production.local
+
+# Logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Environment variables
+.env
+nutrition_dashboard/frontend/.env
+nutrition_dashboard/backend/.env
