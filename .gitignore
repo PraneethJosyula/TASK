@@ -1,1 +1,17 @@
 /.venv
+# Node modules
+node_modules/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables
+.env
+
+# Build files
+/frontend/build/
+
+# Misc
+.DS_Store
