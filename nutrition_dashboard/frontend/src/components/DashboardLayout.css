@@ -1,0 +1,12 @@
+/* src/components/DashboardLayout.css */
+.dashboard-layout {
+    display: flex;
+    min-height: 100vh;
+    background-color: #f8f9fa;
+  }
+  
+  .dashboard-content {
+    flex: 1;
+    padding: 2rem;
+    overflow-y: auto; /* scroll vertically if needed */
+  }

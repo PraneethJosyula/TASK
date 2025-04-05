@@ -1,0 +1,26 @@
+/* src/components/MetricCard.css */
+.metric-card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    flex: 1;
+    text-align: center;
+    margin: 0.5rem;
+  }
+  
+  .metric-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .metric-card p {
+    font-size: 1.6rem;
+    margin: 0;
+  }
+  
+  .metric-card span {
+    font-size: 1rem;
+    color: #666;
+  }
+  
